@@ -1,0 +1,234 @@
+{
+  "title": "Muhammad Rozy Syahputra Portfolio",
+  "description": "Data Scientist & Machine Learning Engineer from Indonesia. Spesialis di Python, Data Science, Data Visualization, ML/DL dan Statistics.",
+  "navbar": [
+    {
+      "label": "Beranda",
+      "href": "#top"
+    },
+    {
+      "label": "Pengalaman",
+      "href": "/id/#pengalaman-kerja"
+    },
+    {
+      "label": "Proyek",
+      "href": "/id/#proyek"
+    },
+    {
+      "label": "Pendidikan",
+      "href": "/id/#pendidikan"
+    },
+    {
+      "label": "Tentang Saya",
+      "href": "/id/#tentang-saya"
+    }
+  ],
+  "hero": {
+    "job_availability": "Siap Bekerja!",
+    "title": "Halo, Saya Muhammad Rozy Syahputra!",
+    "job_title": "<strong>Data Scientist & Machine Learning Engineer</strong> dari Indonesia.",
+    "description": "Spesialis di Python, Data Science, Data Visualization, ML/DL dan Statistik.",
+    "cta": "Hubungi Saya"
+  },
+  "experience": {
+    "title": "Pengalaman Kerja",
+    "jobs": {
+      "jobs_title": ["Self-Employed", "Pelindo 1"],
+      "jobs_description": [
+        {
+          "title": "Asisten Pribadi",
+          "time": ["Nov 2021 - Mar 2025"],
+          "duration": "3 tahun 5 bulan",
+          "description": "Saya menyediakan dukungan administratif yang komprehensif dengan akurasi dan efisiensi yang luar biasa. Saya menyusun, mengedit, dan memformat dokumen profesional termasuk surat, laporan, dan presentasi, sambil menjaga ketepatan dalam penginputan data dan pengelolaan basis data. Sistem penyimpanan dokumen yang terorganisir memungkinkan pengambilan dokumen dengan cepat, dan saya mahir dalam memprioritaskan tugas untuk selalu memenuhi tenggat waktu. Saya juga mengoordinasikan logistik yang kompleks untuk rapat, acara, dan konferensi, memastikan pelaksanaan yang lancar dari perencanaan hingga penyelesaian.",
+          "list": ["Microsoft Office", "Data Entry"]
+        },
+        {
+          "title": "Magang Staf IT",
+          "time": ["Des 2020 - Mei 2021"],
+          "duration": "6 bulan",
+          "description": "Saya mengembangkan dan mengimplementasikan solusi digital komprehensif, termasuk membangun situs web e-commerce dari konsep hingga implementasi. Saya spesialis dalam sistem manajemen karyawan, dengan tingkat akurasi 98% dalam pelacakan kehadiran dan pembangkitan laporan otomatis. Melalui pengujian penerimaan pengguna (User Acceptance Testing) dan pengujian integrasi sistem (System Integration Testing) yang ketat, saya meningkatkan kinerja aplikasi dan pengalaman pengguna, mencapai perbaikan yang dapat diukur seperti peningkatan kepuasan pengguna sebesar 15% yang saya capai untuk aplikasi Click Present dengan mengidentifikasi dan menyelesaikan masalah kegunaan yang kritis.",
+          "list": ["HTML", "CSS", "JavaScript", "Git", "GitHub", "Object-Oriented Programming"]
+        }
+      ]
+    }
+  },
+  "projects": {
+    "title": "Proyek",
+    "projects": [
+      {
+        "title": "Analisis Permasalahan Attrition Rate Karyawan",
+        "description": "Proyek ini menyelesaikan permasalahan tingkat attrition (tingkat pengurangan jumlah) karyawan yang mencapai lebih dari 10% melalui analisis mendalam dengan output berupa business dashboard dan prediksi attrition menggunakan machine learning, serta beberapa rekomendasi tindakan yang dapat diterapkan oleh perusahaan.",
+        "image": "/src/images/projects/employee_attrition2.png",
+        "techs": ["Jupyter", "Python", "scikit-learn", "Pandas", "NumPy", "Matplotlib", "Seaborn", "Joblib", "Streamlit", "Metabase"],
+        "code": "Repositori",
+        "preview": "Dataset",
+        "codeUrl": "https://github.com/RozyRangkuti/Employee-Attrition-Analysis",
+        "previewUrl": "https://github.com/dicodingacademy/dicoding_dataset/tree/main/employee"
+
+      },
+      {
+        "title": "Analisis dan Prediksi Permasalahan Siswa Dropout",
+        "description": "Proyek ini menyelesaikan permasalahan tingkat putus sekolah (dropout) mahasiswa yang cukup tinggi, mencapai lebih dari 32%, melalui analisis mendalam dengan output berupa business dashboard dan prediksi status mahasiswa menggunakan machine learning, serta beberapa rekomendasi tindakan yang dapat diterapkan oleh institusi.",
+        "image": "/src/images/projects/student-problem.png",
+        "techs": ["Jupyter", "Python", "scikit-learn", "Pandas", "NumPy", "Matplotlib", "Seaborn", "Joblib", "Streamlit", "Metabase"],
+        "code": "Repositori",
+        "preview": "Prediction App",
+        "codeUrl": "https://github.com/RozyRangkuti/Student-Dropout-Analysis-and-Prediction",
+        "previewUrl": "https://student-dropout-analysis-and-prediction-id.streamlit.app/"
+      },
+      {
+        "title": "Klasifikasi Gambar Menggunakan Deep Learning",
+        "description": "Dalam proyek ini, saya memanfaatkan library TensorFlow dan Keras API untuk merancang dan melatih jaringan saraf konvolusional (CNN) guna mengklasifikasikan gambar barang fashion ke dalam kategori yang berbeda. Dengan menggunakan dataset Fashion MNIST, saya mengembangkan model CNN yang secara efektif memprediksi jenis pakaian dengan akurasi yang tinggi.",
+        "image": "/src/images/projects/img-classification.jpg",
+        "techs": ["Jupyter", "Python", "scikit-learn", "Pandas", "NumPy", "TensorFlow", "Keras", "Matplotlib", "Seaborn", "Joblib"],
+        "code": "Repositori",
+        "preview": "Dataset",
+        "codeUrl": "https://github.com/RozyRangkuti/image-classification",
+        "previewUrl": "https://www.kaggle.com/datasets/zalando-research/fashionmnist"
+      },
+      {
+        "title": "Analisis Segmentasi Pelanggan",
+        "description": "Proyek ini menerapkan analisis RFM dan pendekatan machine learning untuk segmentasi pelanggan, dengan algoritma yang dipilih berdasarkan dataset yang tersedia. Saya juga akan melakukan EDA (Exploratory Data Analysis) untuk memahami data dan mengeksplorasi karakteristik kelompok menggunakan fitur kategorikal.",
+        "image": "/src/images/projects/customer-segmentation.jpg",
+        "techs": ["Jupyter", "Python", "scikit-learn", "Pandas", "NumPy", "Matplotlib", "Seaborn", "Joblib"],
+        "code": "Repositori",
+        "preview": "Dataset",
+        "codeUrl": "https://github.com/RozyRangkuti/Customer-Segmentation-Analysis",
+        "previewUrl": "https://www.kaggle.com/datasets/vivek468/superstore-dataset-final"
+      },
+      {
+        "title": "Analisis dan Prediksi Skor Kredit",
+        "description": "Dalam proyek ini, saya menyelesaikan Masalah Perusahaan Keuangan untuk menentukan apakah pelanggan mereka memiliki skor kredit yang baik, standar, atau buruk.",
+        "image": "/src/images/projects/credit-scoring-app.png",
+        "techs": ["Jupyter", "Python", "scikit-learn", "Pandas", "NumPy", "Matplotlib", "Seaborn", "Streamlit", "Joblib"],
+        "code": "Repositori",
+        "preview": "Prediction App",
+        "codeUrl": "https://github.com/RozyRangkuti/Credit-Scoring-Analytics",
+        "previewUrl": "https://credit-scoring-analytics.streamlit.app/"
+      },
+      {
+        "title": "Sistem Rekomendasi Film",
+        "description": "Sistem rekomendasi memprediksi penilaian atau preferensi pengguna terhadap item tertentu. Hal ini dilakukan dengan menganalisis perilaku pengguna di masa lalu atau perilaku pengguna lain, sehingga rekomendasi didasarkan pada data tentang preferensi atau perilaku pengguna sepanjang waktu.",
+        "image": "/src/images/projects/movie-recommendation.jpg",
+        "techs": ["Jupyter", "Python", "scikit-learn", "Pandas", "NumPy", "TensorFlow", "Keras", "Matplotlib", "Seaborn", "Joblib"],
+        "code": "Repositori",
+        "preview": "Dataset",
+        "codeUrl": "https://github.com/RozyRangkuti/Building-Movies-Recommendation-System",
+        "previewUrl": "https://www.kaggle.com/datasets/prajitdatta/movielens-100k-dataset"
+      }
+    ]
+  },
+  "contributions": {
+    "title": "Sertifikasi",
+    "contributions": [
+      {
+        "src": "/src/images/contributions/applied-data-science.jpg",
+        "alt": "Penerapan Data Science",
+        "title": "Penerapan Data Science",
+        "description": "Membangun proyek ilmu data sesuai dengan tahapan pengembangan proyek ilmu data berdasarkan studi kasus yang ditemukan di industri.",
+        "techs": ["Jupyter", "Python", "TensorFlow", "Keras", "Streamlit", "Metabase"],
+        "repo": "https://drive.google.com/file/d/1WiDZuAfyyyaPo-MhcvCemwZGQUFTWX1m/view?usp=sharing",
+        "repo_label": "Sertifikat",
+        "commits": "#"
+      },
+      {
+        "src": "/src/images/contributions/ml-development.jpg",
+        "alt": "Pengembangan Machine Learning",
+        "title": "Pengembangan Machine Learning",
+        "description": "Belajar tentang Computer Vision, NLP, dan implementasi dengan standar yang merujuk pada standar kompetensi industri. Bangun proyek pembelajaran mendalam yang berfokus pada pemrosesan dan prediksi data teks dan gambar.",
+        "techs": ["Jupyter", "Python", "TensorFlow", "Keras", "Streamlit", "Metabase"],
+        "repo": "https://drive.google.com/file/d/1zvC501j6O07-YWwt-ML22R4BqPlwE5cO/view?usp=sharing",
+        "repo_label": "Sertifikat",
+        "commits": "#"
+      },
+      {
+        "src": "/src/images/contributions/ml-beginner.jpg",
+        "alt": "Machine Learning untuk Pemula",
+        "title": "Machine Learning untuk Pemula",
+        "description": "Mengembangkan proyek machine learning yang berfokus pada klasifikasi, regresi, dan Pengelompokan pada data tabel.",
+        "techs": ["Jupyter", "Python", "scikit-learn", "Matplotlib"],
+        "repo": "https://drive.google.com/file/d/1kF0tONJiFu-v2Dne5g2dmZ-WtZVwl4Cp/view?usp=sharing",
+        "repo_label": "Sertifikat",
+        "commits": "#"
+      },
+      {
+        "src": "/src/images/contributions/data-analyst-python.jpg",
+        "alt": "Analisis Data dengan Python",
+        "title": "Analisis Data dengan Python",
+        "description": "Melakukan berbagai tahap analisis data untuk mengatasi tantangan bisnis menggunakan bahasa pemrograman Python.",
+        "techs": ["Jupyter", "Python", "Pandas", "NumPy", "Matplotlib", "Streamlit"],
+        "repo": "https://drive.google.com/file/d/1Hl9WwuCMAWSc6v2wjfpDekvkJy-HU806/view?usp=sharing",
+        "repo_label": "Sertifikat",
+        "commits": "#"
+      },
+      {
+        "src": "/src/images/contributions/ai-dasar.jpg",
+        "alt": "AI Dasar",
+        "title": "AI Dasar",
+        "description": "mempelajari berbagai konsep dasar dalam kecerdasan buatan (AI) dan aplikasinya secara mendalam.",
+        "techs": ["Jupyter", "Python", "scikit-learn"],
+        "repo": "https://drive.google.com/file/d/1AdlseIK6SylLsUG1sxsJt1ICVD75eWTt/view?usp=sharing",
+        "repo_label": "Sertifikat",
+        "commits": "#"
+      },
+      {
+        "src": "/src/images/contributions/data-science.jpg",
+        "alt": "Data Scientist dengan Python",
+        "title": "Data Scientist dengan Python",
+        "description": "Kursus ini mengajarkan cara mengekstrak wawasan berharga dari dataset yang kompleks, pemilihan algoritma, penyesuaian hiperparameter, dan interpretasi hasil untuk pengambilan keputusan berbasis data. Dataset yang beragam dari berbagai industri membangun fleksibilitas untuk kesuksesan dalam peran apa pun di bidang ilmu data.",
+        "techs": ["Jupyter", "Python", "scikit-learn", "Pandas", "NumPy"],
+        "repo": "https://drive.google.com/file/d/1IXvunLYWEyif6dmVS-jFCXx5JtVMkSCo/view?usp=sharing",
+        "repo_label": "Sertifikat",
+        "commits": "#"
+      }
+    ]
+  },
+  "education": {
+    "title": "Pendidikan",
+    "educations": {
+      "edu_title": ["Universitas Al Azhar Indonesia", "Politeknik Negeri Medan", "IDCamp"],
+      "edu_description": [
+        {
+          "title": "Sarjana Ilmu Komputer (S.Kom.)",
+          "time": ["Okt 2022 - Sep 2024"],
+          "duration": "1 tahun 11 bulan",
+          "description": "IPK: 3.65 / 4.00 (Cum Laude)",
+          "list": ["Peringkat: Cum Laude.", "Mata Kuliah Relevan: Kecerdasan Buatan & Pembelajaran Mesin, Ilmu Data, Penambangan Data, Basis Data Lanjutan.", "Aktif berpartisipasi dalam lebih dari 5+ acara kampus, seperti kompetisi, webinar, dan lokakarya pelatihan keterampilan."]
+        },
+        {
+          "title": "Diploma Teknik Komputer",
+          "time": ["Sep 2018 - Agu 2021"],
+          "duration": "3 tahun",
+          "description": "IPK: 3.65 / 4.00 (Cum Laude)",
+          "list": ["Peringkat: Cum Laude.", "Mata Kuliah Relevan: Praktikum Struktur Data dan Algoritma, Praktikum Komunikasi Data, Dasar-Dasar RDBMS dan Pemrograman T-SQL", "Aktif berpartisipasi dalam lebih dari 10+ acara kampus, seperti kompetisi, webinar, dan lokakarya pelatihan keterampilan."]
+        },
+        {
+          "title": "Data Scientist",
+          "time": ["Oct 2024 - Mei 2025"],
+          "duration": "8 bulan",
+          "description": "IDCamp adalah program beasiswa yang diselenggarakan oleh Indosat Ooredoo Hutchison untuk mengembangkan talenta digital Indonesia yang siap bersaing di era ekonomi digital. Kurikulum utama IDCamp dikembangkan oleh Dicoding, mitra pelatihan resmi Google di Indonesia.",
+          "list": ["Lulusan Data Scientist Learning Path", "Lulusan terbaik dipilih untuk mendapatkan akses ke pembelajaran tingkat lanjut (tingkat menengah hingga tingkat lanjut)."]
+        }
+      ]
+    }
+  },
+  "about": {
+    "title": "Tentang Saya",
+    "subtitle": "Data Science & Machine Learning adalah keahlian utama saya",
+    "description": "Profesional data science dan machine learning yang bersemangat dengan dasar yang kuat dalam Python, analisis data, algoritma machine learning, dan metode statistik. Antusias dalam mengekstrak wawasan yang dapat ditindaklanjuti dari data untuk mendukung tujuan organisasi. Bersemangat untuk berkontribusi pada proyek berbasis data, meningkatkan keahlian teknis, dan berkolaborasi dengan tim lintas fungsi untuk menghasilkan hasil yang berdampak."
+  },
+  "contact": {
+    "title": "Menjelajahi batas terdepan DS dan ML?",
+    "subtitle": "Mari berkolaborasi, ubah wawasan menjadi dampak!"
+  },
+  "footer": {
+    "designed": {
+      "designed_with": "Didesain dengan",
+      "designed_by": ""
+    },
+    "developed": {
+      "developed_with": "Dibuat dengan ",
+      "developed_by": "Oleh"
+    }
+  }
+}

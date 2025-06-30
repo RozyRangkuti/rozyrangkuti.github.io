@@ -1,0 +1,234 @@
+{
+  "title": "Muhammad Rozy Syahputra Portfolio",
+  "description": "Data Scientist from Indonesia. Specialist in Python, Data Science, Data Visualization, ML/DL and Statistics.",
+  "navbar": [
+    {
+      "label": "Home",
+      "href": "#top"
+    },
+    {
+      "label": "Experience",
+      "href": "/#work-experience"
+    },
+    {
+      "label": "Projects",
+      "href": "/#projects"
+    },
+    {
+      "label": "Education",
+      "href": "/#education"
+    },
+    {
+      "label": "About me",
+      "href": "/#about-me"
+    }
+  ],
+  "hero": {
+    "job_availability": "Available for work!",
+    "title": "Hello, I'm Muhammad Rozy Syahputra!",
+    "job_title": "<strong>Data Scientist & Machine Learning Engineer</strong> from Indonesia.",
+    "description": "Specialist in Python, Data Science, Data Visualization, ML/DL and Statistics.",
+    "cta": "Contact me"
+  },
+  "experience": {
+    "title": "Work Experience",
+    "jobs": {
+      "jobs_title": ["Self-Employed", "Pelindo 1"],
+      "jobs_description": [
+        {
+          "title": "Personal Assistant",
+          "time": ["Nov 2021 - Mar 2025"],
+          "duration": "3 years 5 months",
+          "description": "I provide comprehensive administrative support with exceptional accuracy and efficiency. I draft, edit, and format professional documents including letters, reports, and presentations while maintaining precise data entry and database management. My organized filing systems enable rapid document retrieval, and I excel at task prioritization to consistently meet deadlines. I also coordinate complex logistics for meetings, events, and conferences, ensuring seamless execution from planning through completion.",
+          "list": ["Microsoft Office", "Data Entry"]
+        },
+        {
+          "title": "Staff IT Internship",
+          "time": ["Dec 2020 - May 2021"],
+          "duration": "6 months",
+          "description": "I develop and implement comprehensive digital solutions, including building e-commerce websites from concept to deployment. I specialize in employee management systems, maintaining 98% accuracy in attendance tracking and automated report generation. Through rigorous User Acceptance Testing and System Integration Testing, I enhance application performance and user experience, achieving measurable improvements like the 15% user satisfaction increase I delivered for Click Present applications by identifying and resolving critical usability issues.",
+          "list": ["HTML", "CSS", "JavaScript", "Git", "GitHub", "Object-Oriented Programming"]
+        }
+      ]
+    }
+  },
+  "projects": {
+    "title": "Projects",
+    "projects": [
+      {
+        "title": "Employee Attrition Problem Analysis",
+        "description": "This project solves the problem of employee attrition which reaches more than 10% using in-depth analysis with output in the form of a business dashboard and attrition predictions using machine learning, as well as several recommended action items that can be carried out by companies.",
+        "image": "/src/images/projects/employee_attrition2.png",
+        "techs": ["Jupyter", "Python", "scikit-learn", "Pandas", "NumPy", "Matplotlib", "Seaborn", "Joblib", "Streamlit", "Metabase"],
+        "code": "Repository",
+        "preview": "Dataset",
+        "codeUrl": "https://github.com/RozyRangkuti/Employee-Attrition-Analysis",
+        "previewUrl": "https://github.com/dicodingacademy/dicoding_dataset/tree/main/employee"
+
+      },
+      {
+        "title": "Student Dropout Problem Analysis and Prediction",
+        "description": "This project solves the problem of student dropout which is quite high, reaching more than 32% using in-depth analysis with output in the form of a business dashboard and student status predictions using machine learning, as well as several recommended action items that can be carried out by the institution.",
+        "image": "/src/images/projects/student-problem.png",
+        "techs": ["Jupyter", "Python", "scikit-learn", "Pandas", "NumPy", "Matplotlib", "Seaborn", "Joblib", "Streamlit", "Metabase"],
+        "code": "Repository",
+        "preview": "Prediction App",
+        "codeUrl": "https://github.com/RozyRangkuti/Student-Dropout-Analysis-and-Prediction",
+        "previewUrl": "https://student-dropout-analysis-and-prediction-id.streamlit.app/"
+      },
+      {
+        "title": "Image Classification using Deep Learning",
+        "description": "In this project, I leveraged the TensorFlow library and Keras API to design and train a convolutional neural network (CNN) for classifying fashion item images into different categories. Using the Fashion MNIST dataset, I developed a CNN model that effectively predicts clothing types with strong accuracy.",
+        "image": "/src/images/projects/img-classification.jpg",
+        "techs": ["Jupyter", "Python", "scikit-learn", "Pandas", "NumPy", "TensorFlow", "Keras", "Matplotlib", "Seaborn", "Joblib"],
+        "code": "Repository",
+        "preview": "Dataset",
+        "codeUrl": "https://github.com/RozyRangkuti/image-classification",
+        "previewUrl": "https://www.kaggle.com/datasets/zalando-research/fashionmnist"
+      },
+      {
+        "title": "Customer Segmentation Analysis",
+        "description": "This project applies RFM analysis and a machine learning approach for customer segmentation, with the algorithm chosen based on the dataset. I’ll also perform EDA to understand the data and explore group characteristics using categorical features.",
+        "image": "/src/images/projects/customer-segmentation.jpg",
+        "techs": ["Jupyter", "Python", "scikit-learn", "Pandas", "NumPy", "Matplotlib", "Seaborn", "Joblib"],
+        "code": "Repository",
+        "preview": "Dataset",
+        "codeUrl": "https://github.com/RozyRangkuti/Customer-Segmentation-Analysis",
+        "previewUrl": "https://www.kaggle.com/datasets/vivek468/superstore-dataset-final"
+      },
+      {
+        "title": "Credit Scoring Analytics & Prediction",
+        "description": "In this project, I solved the Finance Company Problem to determine whether their Customers have good, standard or poor credit scores.",
+        "image": "/src/images/projects/credit-scoring-app.png",
+        "techs": ["Jupyter", "Python", "scikit-learn", "Pandas", "NumPy", "Matplotlib", "Seaborn", "Streamlit", "Joblib"],
+        "code": "Repository",
+        "preview": "Prediction App",
+        "codeUrl": "https://github.com/RozyRangkuti/Credit-Scoring-Analytics",
+        "previewUrl": "https://credit-scoring-analytics.streamlit.app/"
+      },
+      {
+        "title": "Movies Recommendation System",
+        "description": "Recommendation systems predict users' ratings or preferences for specific items. This is done by analyzing past user behavior or the behavior of other users, so that recommendations are based on data about user preferences or behavior over time.",
+        "image": "/src/images/projects/movie-recommendation.jpg",
+        "techs": ["Jupyter", "Python", "scikit-learn", "Pandas", "NumPy", "TensorFlow", "Keras", "Matplotlib", "Seaborn", "Joblib"],
+        "code": "Repository",
+        "preview": "Dataset",
+        "codeUrl": "https://github.com/RozyRangkuti/Building-Movies-Recommendation-System",
+        "previewUrl": "https://www.kaggle.com/datasets/prajitdatta/movielens-100k-dataset"
+      }
+    ]
+  },
+  "contributions": {
+    "title": "Certifications",
+    "contributions": [
+      {
+        "src": "/src/images/contributions/applied-data-science.jpg",
+        "alt": "Applied Data Science",
+        "title": "Applied Data Science",
+        "description": "Building data science projects in accordance with the stages of data science project development based on case studies encountered in the industry.",
+        "techs": ["Jupyter", "Python", "TensorFlow", "Keras", "Streamlit", "Metabase"],
+        "repo": "https://drive.google.com/file/d/1WiDZuAfyyyaPo-MhcvCemwZGQUFTWX1m/view?usp=sharing",
+        "repo_label": "Certificate",
+        "commits": "#"
+      },
+      {
+        "src": "/src/images/contributions/ml-development.jpg",
+        "alt": "Machine Learning Development",
+        "title": "Machine Learning Development",
+        "description": "Learn about computer vision, natural language processing, and deployment with standards that refer to industry competency standards. Build deep learning projects that focus on processing and predicting text and image data.",
+        "techs": ["Jupyter", "Python", "TensorFlow", "Keras", "Streamlit", "Metabase"],
+        "repo": "https://drive.google.com/file/d/1zvC501j6O07-YWwt-ML22R4BqPlwE5cO/view?usp=sharing",
+        "repo_label": "Certificate",
+        "commits": "#"
+      },
+      {
+        "src": "/src/images/contributions/ml-beginner.jpg",
+        "alt": "Machine Learning for Beginners",
+        "title": "Machine Learning for Beginners",
+        "description": "Develop machine learning projects focused on classification, regression, and clustering on tabular data.",
+        "techs": ["Jupyter", "Python", "scikit-learn", "Matplotlib"],
+        "repo": "https://drive.google.com/file/d/1kF0tONJiFu-v2Dne5g2dmZ-WtZVwl4Cp/view?usp=sharing",
+        "repo_label": "Certificate",
+        "commits": "#"
+      },
+      {
+        "src": "/src/images/contributions/data-analyst-python.jpg",
+        "alt": "Data Analysis with Python",
+        "title": "Data Analysis with Python",
+        "description": "Performing various stages of data analysis to address business challenges using the Python programming language.",
+        "techs": ["Jupyter", "Python", "Pandas", "NumPy", "Matplotlib", "Streamlit"],
+        "repo": "https://drive.google.com/file/d/1Hl9WwuCMAWSc6v2wjfpDekvkJy-HU806/view?usp=sharing",
+        "repo_label": "Certificate",
+        "commits": "#"
+      },
+      {
+        "src": "/src/images/contributions/ai-dasar.jpg",
+        "alt": "AI Fundamentals",
+        "title": "AI Fundamentals",
+        "description": "Examine various basic concepts in AI and their applications thoroughly.",
+        "techs": ["Jupyter", "Python", "scikit-learn"],
+        "repo": "https://drive.google.com/file/d/1AdlseIK6SylLsUG1sxsJt1ICVD75eWTt/view?usp=sharing",
+        "repo_label": "Certificate",
+        "commits": "#"
+      },
+      {
+        "src": "/src/images/contributions/data-science.jpg",
+        "alt": "Data Scientist in Python",
+        "title": "Data Scientist in Python",
+        "description": "The course teaches extraction of valuable insights from complex datasets, algorithm selection, hyperparameter tuning, and result interpretation for data-driven decisions. Diverse cross-industry datasets build versatility for success in any data science role.",
+        "techs": ["Jupyter", "Python", "scikit-learn", "Pandas", "NumPy"],
+        "repo": "https://drive.google.com/file/d/1IXvunLYWEyif6dmVS-jFCXx5JtVMkSCo/view?usp=sharing",
+        "repo_label": "Certificate",
+        "commits": "#"
+      }
+    ]
+  },
+  "education": {
+    "title": "Education",
+    "educations": {
+      "edu_title": ["University of Al Azhar Indonesia", "Politeknik Negeri Medan", "IDCamp"],
+      "edu_description": [
+        {
+          "title": "Bachelor of Computer Science",
+          "time": ["Oct 2022 - Sep 2024"],
+          "duration": "1 year 11 months",
+          "description": "GPA: 3.65 / 4.00 (Cum Laude)",
+          "list": [" Honors: Cumlaude.", "Relevant Coursework: Artificial Intelligence & Machine Learning, Data Science, Data Mining, Advanced Database.", " Actively participates in over 5+ campus events, such as competitions, webinars, and skills training workshops."]
+        },
+        {
+          "title": "Diploma in Computer Engineering",
+          "time": ["Sep 2018 - Aug 2021"],
+          "duration": "3 years",
+          "description": "GPA: 3.65 / 4.00 (Cum Laude)",
+          "list": ["Honors: Cumlaude.", "Relevant Coursework: Pract. Data Structures & Algorithms, Pract. Data Communication, RDBMS Essentials & T-SQL Programming.", "Actively participates in over 10+ campus events, such as competitions, webinars, and skills training workshops."]
+        },
+        {
+          "title": "Data Scientist",
+          "time": ["Oct 2024 - Mei 2025"],
+          "duration": "8 months",
+          "description": "IDCamp is a scholarship program organized by Indosat Ooredoo Hutchison to develop Indonesian digital talent who are ready to compete in the digital economy. The main IDCamp curriculum was developed by Dicoding, a Google Authorized Training Partner in Indonesia.",
+          "list": ["Data Scientist Learning Path Graduate", "The best graduates are selected to gain access to advanced learning (intermediate to advanced levels)."]
+        }
+      ]
+    }
+  },
+  "about": {
+    "title": "About me",
+    "subtitle": "Data Science & Machine Learning is my core expertise",
+    "description": "Enthusiastic data science and machine learning professional with a strong foundation in Python, data analysis, machine learning algorithms, and statistical methods. Passionate about deriving actionable insights from data to support organizational goals. Eager to contribute to data-driven projects, enhance my technical expertise, and collaborate with cross-functional teams to deliver impactful results."
+  },
+  "contact": {
+    "title": "Exploring the frontiers of DS and ML?",
+    "subtitle": "Let's collaborate, turn insights into impact!"
+  },
+  "footer": {
+    "designed": {
+      "designed_with": "Designed with",
+      "designed_by": ""
+    },
+    "developed": {
+      "developed_with": "Made with ",
+      "developed_by": "by"
+    }
+  }
+}
