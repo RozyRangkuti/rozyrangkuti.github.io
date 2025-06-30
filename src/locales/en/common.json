@@ -47,7 +47,14 @@
           "time": ["Dec 2020 - May 2021"],
           "duration": "6 months",
           "description": "I develop and implement comprehensive digital solutions, including building e-commerce websites from concept to deployment. I specialize in employee management systems, maintaining 98% accuracy in attendance tracking and automated report generation. Through rigorous User Acceptance Testing and System Integration Testing, I enhance application performance and user experience, achieving measurable improvements like the 15% user satisfaction increase I delivered for Click Present applications by identifying and resolving critical usability issues.",
-          "list": ["HTML", "CSS", "JavaScript", "Git", "GitHub", "Object-Oriented Programming"]
+          "list": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "Git",
+            "GitHub",
+            "Object-Oriented Programming"
+          ]
         }
       ]
     }
@@ -59,18 +66,39 @@
         "title": "Employee Attrition Problem Analysis",
         "description": "This project solves the problem of employee attrition which reaches more than 10% using in-depth analysis with output in the form of a business dashboard and attrition predictions using machine learning, as well as several recommended action items that can be carried out by companies.",
         "image": "/src/images/projects/employee_attrition2.png",
-        "techs": ["Jupyter", "Python", "scikit-learn", "Pandas", "NumPy", "Matplotlib", "Seaborn", "Joblib", "Streamlit", "Metabase"],
+        "techs": [
+          "Jupyter",
+          "Python",
+          "scikit-learn",
+          "Pandas",
+          "NumPy",
+          "Matplotlib",
+          "Seaborn",
+          "Joblib",
+          "Streamlit",
+          "Metabase"
+        ],
         "code": "Repository",
         "preview": "Dashboard",
         "codeUrl": "https://github.com/RozyRangkuti/Employee-Attrition-Analysis",
         "previewUrl": "https://student-dropout-analysis-and-prediction-id.streamlit.app/"
-
       },
       {
         "title": "Student Dropout Problem Analysis and Prediction",
         "description": "This project solves the problem of student dropout which is quite high, reaching more than 32% using in-depth analysis with output in the form of a business dashboard and student status predictions using machine learning, as well as several recommended action items that can be carried out by the institution.",
         "image": "/src/images/projects/ana-rangel-portafolio.jpg",
-        "techs": ["Jupyter", "Python", "scikit-learn", "Pandas", "NumPy", "Matplotlib", "Seaborn", "Joblib", "Streamlit", "Metabase"],
+        "techs": [
+          "Jupyter",
+          "Python",
+          "scikit-learn",
+          "Pandas",
+          "NumPy",
+          "Matplotlib",
+          "Seaborn",
+          "Joblib",
+          "Streamlit",
+          "Metabase"
+        ],
         "code": "Repository",
         "preview": "Dashboard",
         "codeUrl": "",
@@ -80,7 +108,18 @@
         "title": "Image Classification",
         "description": "In this project, I leveraged the TensorFlow library and Keras API to design and train a convolutional neural network (CNN) for classifying fashion item images into different categories. Using the Fashion MNIST dataset, I developed a CNN model that effectively predicts clothing types with strong accuracy.",
         "image": "/src/images/projects/calculadora-payoneer-project.jpg",
-        "techs": ["Jupyter", "Python", "scikit-learn", "Pandas", "NumPy", "TensorFlow", "Keras", "Matplotlib", "Seaborn", "Joblib"],
+        "techs": [
+          "Jupyter",
+          "Python",
+          "scikit-learn",
+          "Pandas",
+          "NumPy",
+          "TensorFlow",
+          "Keras",
+          "Matplotlib",
+          "Seaborn",
+          "Joblib"
+        ],
         "code": "Repository",
         "preview": "Dataset",
         "codeUrl": "",
@@ -90,7 +129,16 @@
         "title": "Customer Segmentation Analysis",
         "description": "This project applies RFM analysis and a machine learning approach for customer segmentation, with the algorithm chosen based on the dataset. I’ll also perform EDA to understand the data and explore group characteristics using categorical features.",
         "image": "/src/images/projects/calculadora-payoneer-project.jpg",
-        "techs": ["Jupyter", "Python", "scikit-learn", "Pandas", "NumPy", "Matplotlib", "Seaborn", "Joblib"],
+        "techs": [
+          "Jupyter",
+          "Python",
+          "scikit-learn",
+          "Pandas",
+          "NumPy",
+          "Matplotlib",
+          "Seaborn",
+          "Joblib"
+        ],
         "code": "Repository",
         "preview": "Dataset",
         "codeUrl": "",
@@ -100,7 +148,17 @@
         "title": "Credit Scoring Analytics",
         "description": "In this project, I solved the Finance Company Problem to determine whether their Customers have good, standard or poor credit scores.",
         "image": "/src/images/projects/calculadora-payoneer-project.jpg",
-        "techs": ["Jupyter", "Python", "scikit-learn", "Pandas", "NumPy", "Matplotlib", "Seaborn", "Streamlit", "Joblib"],
+        "techs": [
+          "Jupyter",
+          "Python",
+          "scikit-learn",
+          "Pandas",
+          "NumPy",
+          "Matplotlib",
+          "Seaborn",
+          "Streamlit",
+          "Joblib"
+        ],
         "code": "Repository",
         "preview": "Application",
         "codeUrl": "",
@@ -110,7 +168,18 @@
         "title": "Movies Recommendation System",
         "description": "Recommendation systems predict users' ratings or preferences for specific items. This is done by analyzing past user behavior or the behavior of other users, so that recommendations are based on data about user preferences or behavior over time.",
         "image": "/src/images/projects/calculadora-payoneer-project.jpg",
-        "techs": ["Jupyter", "Python", "scikit-learn", "Pandas", "NumPy", "TensorFlow", "Keras", "Matplotlib", "Seaborn", "Joblib"],
+        "techs": [
+          "Jupyter",
+          "Python",
+          "scikit-learn",
+          "Pandas",
+          "NumPy",
+          "TensorFlow",
+          "Keras",
+          "Matplotlib",
+          "Seaborn",
+          "Joblib"
+        ],
         "code": "Repository",
         "preview": "Dataset",
         "codeUrl": "",
@@ -126,7 +195,14 @@
         "alt": "Applied Data Science",
         "title": "Applied Data Science",
         "description": "Building data science projects in accordance with the stages of data science project development based on case studies encountered in the industry.",
-        "techs": ["Jupyter", "Python", "TensorFlow", "Keras", "Streamlit", "Metabase"],
+        "techs": [
+          "Jupyter",
+          "Python",
+          "TensorFlow",
+          "Keras",
+          "Streamlit",
+          "Metabase"
+        ],
         "repo": "#",
         "repo_label": "Certificate",
         "commits": "#"
@@ -136,7 +212,14 @@
         "alt": "Machine Learning Development",
         "title": "Machine Learning Development",
         "description": "Learn about computer vision, natural language processing, and deployment with standards that refer to industry competency standards. Build deep learning projects that focus on processing and predicting text and image data.",
-        "techs": ["Jupyter", "Python", "TensorFlow", "Keras", "Streamlit", "Metabase"],
+        "techs": [
+          "Jupyter",
+          "Python",
+          "TensorFlow",
+          "Keras",
+          "Streamlit",
+          "Metabase"
+        ],
         "repo": "#",
         "repo_label": "Certificate",
         "commits": "#"
@@ -156,7 +239,14 @@
         "alt": "Data Analysis with Python",
         "title": "Data Analysis with Python",
         "description": "Performing various stages of data analysis to address business challenges using the Python programming language.",
-        "techs": ["Jupyter", "Python", "Pandas", "NumPy", "Matplotlib", "Streamlit"],
+        "techs": [
+          "Jupyter",
+          "Python",
+          "Pandas",
+          "NumPy",
+          "Matplotlib",
+          "Streamlit"
+        ],
         "repo": "#",
         "repo_label": "Certificate",
         "commits": "#"
@@ -186,28 +276,43 @@
   "education": {
     "title": "Education",
     "educations": {
-      "edu_title": ["University of Al Azhar Indonesia", "Politeknik Negeri Medan", "IDCamp"],
+      "edu_title": [
+        "University of Al Azhar Indonesia",
+        "Politeknik Negeri Medan",
+        "IDCamp"
+      ],
       "edu_description": [
         {
           "title": "Bachelor of Computer Science",
           "time": ["Oct 2022 - Sep 2024"],
           "duration": "1 year 11 months",
           "description": "GPA: 3.65 / 4.00 (Cum Laude)",
-          "list": [" Honors: Cumlaude.", "Relevant Coursework: Artificial Intelligence & Machine Learning, Data Science, Data Mining, Advanced Database.", " Actively participates in over 5+ campus events, such as competitions, webinars, and skills training workshops."]
+          "list": [
+            " Honors: Cumlaude.",
+            "Relevant Coursework: Artificial Intelligence & Machine Learning, Data Science, Data Mining, Advanced Database.",
+            " Actively participates in over 5+ campus events, such as competitions, webinars, and skills training workshops."
+          ]
         },
         {
           "title": "Diploma in Computer Engineering",
           "time": ["Sep 2018 - Aug 2021"],
           "duration": "3 years",
           "description": "GPA: 3.65 / 4.00 (Cum Laude)",
-          "list": ["Honors: Cumlaude.", "Relevant Coursework: Pract. Data Structures & Algorithms, Pract. Data Communication, RDBMS Essentials & T-SQL Programming.", "Actively participates in over 10+ campus events, such as competitions, webinars, and skills training workshops."]
+          "list": [
+            "Honors: Cumlaude.",
+            "Relevant Coursework: Pract. Data Structures & Algorithms, Pract. Data Communication, RDBMS Essentials & T-SQL Programming.",
+            "Actively participates in over 10+ campus events, such as competitions, webinars, and skills training workshops."
+          ]
         },
         {
           "title": "Data Scientist",
           "time": ["Oct 2024 - Mei 2025"],
           "duration": "8 months",
           "description": "IDCamp is a scholarship program organized by Indosat Ooredoo Hutchison to develop Indonesian digital talent who are ready to compete in the digital economy. The main IDCamp curriculum was developed by Dicoding, a Google Authorized Training Partner in Indonesia.",
-          "list": ["Data Scientist Learning Path Graduate", "The best graduates are selected to gain access to advanced learning (intermediate to advanced levels)."]
+          "list": [
+            "Data Scientist Learning Path Graduate",
+            "The best graduates are selected to gain access to advanced learning (intermediate to advanced levels)."
+          ]
         }
       ]
     }
