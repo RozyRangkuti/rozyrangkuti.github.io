@@ -35,28 +35,32 @@ const normalizeTitle = title
     </div>
     <div class="jobs-descriptions">
       {
-        jobsDescription.map(({ title, time, duration, description, list }, index) => (
-          <div class:list={['description tabcontent', { active: index === 0 }]}>
-            <h3>{title}</h3>
-            <div class="job-time">
-              {time.map((time, index) => (
-                <>
-                  <time class="headline-4" datetime={time}>
-                    {time}
-                  </time>
-                  {index % 2 === 0 && <span>—</span>}
-                </>
-              ))}
-              {time.length <= 1 && <span>({duration})</span>}
+        jobsDescription.map(
+          ({ title, time, duration, description, list }, index) => (
+            <div
+              class:list={['description tabcontent', { active: index === 0 }]}
+            >
+              <h3>{title}</h3>
+              <div class="job-time">
+                {time.map((time, index) => (
+                  <>
+                    <time class="headline-4" datetime={time}>
+                      {time}
+                    </time>
+                    {index % 2 === 0 && <span>—</span>}
+                  </>
+                ))}
+                {time.length <= 1 && <span>({duration})</span>}
+              </div>
+              <p>{description}</p>
+              <ul>
+                {list.map((item) => (
+                  <li>{item}</li>
+                ))}
+              </ul>
             </div>
-            <p>{description}</p>
-            <ul>
-              {list.map((item) => (
-                <li>{item}</li>
-              ))}
-            </ul>
-          </div>
-        ))
+          )
+        )
       }
     </div>
   </section>
@@ -227,8 +231,10 @@ const normalizeTitle = title
 <script>
   // Scope to this specific experience section only
   const container = document.querySelector('.tab-container-experience')
-  const tabButtons = container.querySelectorAll('.tabbutton')
-  const tabContents = container.querySelectorAll('.tabcontent') as NodeListOf<HTMLDivElement>
+  const tabButtons = container!.querySelectorAll('.tabbutton')
+  const tabContents = container!.querySelectorAll(
+    '.tabcontent'
+  ) as NodeListOf<HTMLDivElement>
 
   tabButtons.forEach((button) => {
     button.addEventListener('click', (event) => {
