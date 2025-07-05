@@ -4,7 +4,6 @@ import { Icon } from 'astro-icon/components'
 import { Picture } from 'astro:assets'
 import '@styles/tech-colors.css'
 
-
 interface Props {
   src: string
   alt: string
@@ -18,7 +17,17 @@ interface Props {
   previewUrl: string
 }
 
-const { src, alt, title, description, techs, code, preview, codeUrl, previewUrl } = Astro.props
+const {
+  src,
+  alt,
+  title,
+  description,
+  techs,
+  code,
+  preview,
+  codeUrl,
+  previewUrl
+} = Astro.props
 
 const images = import.meta.glob<{ default: ImageMetadata }>(
   '/src/images/projects/*.{jpeg,jpg,png}'
@@ -32,7 +41,7 @@ if (!images[src])
 <section class="card-project">
   <div>
     <!-- Use previewUrl prop instead of hardcoded link -->
-    <a href={previewUrl || "#"} target="" rel="noopener noreferrer">
+    <a href={previewUrl || '#'} target="" rel="noopener noreferrer">
       <Picture
         src={images[src]()}
         alt={alt}
@@ -45,7 +54,9 @@ if (!images[src])
   </div>
   <div class="description">
     <!-- Use previewUrl for title link too -->
-    <h3><a href={previewUrl} target="_blank" rel="noopener noreferrer">{title}</a></h3>
+    <h3>
+      <a href={previewUrl} target="_blank" rel="noopener noreferrer">{title}</a>
+    </h3>
     <div class="badges">
       {
         techs.map((tech) => {
@@ -63,12 +74,12 @@ if (!images[src])
     <p>{description}</p>
     <div class="links">
       <!-- Use codeUrl prop for GitHub link -->
-      <a href={codeUrl || "#"} target="_blank" rel="noopener noreferrer">
+      <a href={codeUrl || '#'} target="_blank" rel="noopener noreferrer">
         <Icon name="github" size={24} />
         {code}
       </a>
       <!-- Use previewUrl prop for preview link -->
-      <a href={previewUrl || "#"} target="_blank" rel="noopener noreferrer">
+      <a href={previewUrl || '#'} target="_blank" rel="noopener noreferrer">
         <Icon name="link" size={24} />
         {preview}
       </a>
